@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Customer bean 1 -->
+    <bean class="com.mavenprojectdemo.Customer" name="customer1">
+        <property name="customerId">
+            <value>101</value>
+        </property>
+
+        <property name="customer_name">
+            <value>Atharva Kumar</value> <!-- assuming customer_name is an int; usually it's a String -->
+        </property>
+
+        <property name="orderId">
+            <value>9001</value>
+        </property>
+    </bean>
+
+    <!-- Customer bean 2 -->
+    <bean class="com.mavenprojectdemo.Customer" name="customer2">
+        <property name="customerId">
+            <value>102</value>
+        </property>
+
+        <property name="customer_name">
+            <value>Maxwell</value>
+        </property>
+
+        <property name="orderId">
+            <value>9002</value>
+        </property>
+    </bean>
+
+</beans>
