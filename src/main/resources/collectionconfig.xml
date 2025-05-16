@@ -11,7 +11,30 @@
         <value>Atharva</value>
     </property>
 
+   <property name="phones">
+       <list>
+           <value>7005637</value>
+           <value>767995637</value>
+           <value>9865637</value>
+       </list>
+   </property>
 
+        <property name="addresses">
+            <set>
+                <value>Delhi</value>
+                <value>pune</value>
+                <value>chennai</value>
+            </set>
+        </property>
+
+        <property name="courses">
+            <map>
+                <entry key="java" value="2 months"/>
+                <entry key="python" value="5 months"/>
+                <entry key="c++" value="1 months"/>
+
+            </map>
+        </property>
 
 
 
