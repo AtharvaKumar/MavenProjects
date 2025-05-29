@@ -1,10 +1,14 @@
-package com.autowiredemo;
+package com.annotationdemo;
+
+import com.annotationdemo.Address;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class Emp {
 
+    @Autowired
     private Address address;
 
-    public Emp(Address address) {
+    public Emp(com.annotationdemo.Address address) {
         this.address = address;
     }
 
@@ -13,7 +17,7 @@ public class Emp {
         super();
     }
 
-    public Address getAddress() {
+    public com.annotationdemo.Address getAddress() {
         return address;
     }
 
@@ -28,3 +32,4 @@ public class Emp {
                 '}';
     }
 }
+

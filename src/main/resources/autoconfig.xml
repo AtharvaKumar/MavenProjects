@@ -10,6 +10,6 @@
 
     </bean>
 
-    <bean class = "com.autowiredemo.Emp" name="emp1" autowire="byName"/>
+    <bean class = "com.autowiredemo.Emp" name="emp1" autowire="constructor"/>
 
 </beans>
